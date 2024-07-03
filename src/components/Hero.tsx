@@ -1,4 +1,4 @@
-import { Button } from "./Button";
+import { Button } from './Button'
 
 export function Hero() {
   return (
@@ -28,25 +28,23 @@ export function Hero() {
               Cybersecurity Hackathon 2024
             </h1>
             <p className="mt-6 text-lg text-gray-200">
-            Lasst uns gemeinsam Lösungen für die spannendsten Probleme der Cyber 
-            Security Welt finden! Der "Cyber Security Hackathon Bonn" ist eine 
-            jährliche Veranstaltung in der Region:
+              Lasst uns gemeinsam Lösungen für die spannendsten Probleme der
+              Cyber Security Welt finden! Der "Cyber Security Hackathon Bonn"
+              ist eine jährliche Veranstaltung in der Region:
             </p>
             <p className="mt-4 text-lg font-bold text-l3-400">
-            Preisgeld: 3.000 € für das Gewinnerteam
+              Preisgeld: 3.000 € für das Gewinnerteam
             </p>
             <p className="mt-4 text-lg text-gray-200">
-            48 Stunden Zeit, coole Leute, 
-            geile technische Problemstellungen + Networking, Drinks 'n Food und 
-            eine große Abschlussparty
+              48 Stunden Zeit, coole Leute, geile technische Problemstellungen +
+              Networking, Drinks 'n Food und eine große Abschlussparty
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <Button
+              <Button href="#">Kostenlos teilnehmen</Button>
+              <a
                 href="#"
+                className="text-sm font-semibold leading-6 text-white"
               >
-                Kostenlos teilnehmen
-              </Button>
-              <a href="#" className="text-sm font-semibold leading-6 text-white">
                 Mehr erfahren <span aria-hidden="true">→</span>
               </a>
             </div>

@@ -33,7 +33,7 @@ const schedule: Array<Day> = [
         start: '17:00',
         end: '18:30',
         openForOthers: false,
-        id: 1
+        id: 1,
       },
       {
         name: 'Teamfindung',
@@ -41,7 +41,7 @@ const schedule: Array<Day> = [
         start: '18:30',
         end: '19:00',
         openForOthers: false,
-        id: 2
+        id: 2,
       },
       {
         name: 'Workshop: Kreativtechniken',
@@ -49,7 +49,7 @@ const schedule: Array<Day> = [
         start: '19:00',
         end: '19:30',
         openForOthers: false,
-        id: 3
+        id: 3,
       },
       {
         name: 'Abendessen*',
@@ -57,7 +57,7 @@ const schedule: Array<Day> = [
         start: '19:30',
         end: '20:30',
         openForOthers: false,
-        id: 4
+        id: 4,
       },
       {
         name: 'Beginn der Arbeitsphase',
@@ -65,8 +65,8 @@ const schedule: Array<Day> = [
         start: '20:30',
         end: 'offen',
         openForOthers: false,
-        id: 5
-      }
+        id: 5,
+      },
     ],
   },
   {
@@ -81,7 +81,7 @@ const schedule: Array<Day> = [
         start: 'offen',
         end: '10:00',
         openForOthers: false,
-        id: 6
+        id: 6,
       },
       {
         name: 'Frühstück*',
@@ -89,7 +89,7 @@ const schedule: Array<Day> = [
         start: '10:00',
         end: '11:00',
         openForOthers: false,
-        id: 7
+        id: 7,
       },
       {
         name: 'Arbeitsphase',
@@ -97,7 +97,7 @@ const schedule: Array<Day> = [
         start: '11:00',
         end: '14:00',
         openForOthers: false,
-        id: 8
+        id: 8,
       },
       {
         name: 'Mittagessen*',
@@ -105,7 +105,7 @@ const schedule: Array<Day> = [
         start: '14:00',
         end: '15:00',
         openForOthers: false,
-        id: 9
+        id: 9,
       },
       {
         name: 'Arbeitsphase',
@@ -113,7 +113,7 @@ const schedule: Array<Day> = [
         start: '15:00',
         end: '17:00',
         openForOthers: false,
-        id: 10
+        id: 10,
       },
       {
         name: 'Workshop: Boost your Pitch',
@@ -121,7 +121,7 @@ const schedule: Array<Day> = [
         start: '18:00',
         end: '18:30',
         openForOthers: false,
-        id: 11
+        id: 11,
       },
       {
         name: 'Abendessen*',
@@ -129,7 +129,7 @@ const schedule: Array<Day> = [
         start: '18:30',
         end: '19:30',
         openForOthers: false,
-        id: 12
+        id: 12,
       },
       {
         name: 'Arbeitsphase',
@@ -137,8 +137,8 @@ const schedule: Array<Day> = [
         start: '19:30',
         end: 'offen',
         openForOthers: false,
-        id: 13
-      }
+        id: 13,
+      },
     ],
   },
   {
@@ -153,7 +153,7 @@ const schedule: Array<Day> = [
         start: 'offen',
         end: '10:00',
         openForOthers: false,
-        id: 14
+        id: 14,
       },
       {
         name: 'Frühstück*',
@@ -161,7 +161,7 @@ const schedule: Array<Day> = [
         start: '10:00',
         end: '11:00',
         openForOthers: false,
-        id: 15
+        id: 15,
       },
       {
         name: 'Partnervorstellungen',
@@ -169,7 +169,7 @@ const schedule: Array<Day> = [
         start: '12:00',
         end: '12:40',
         openForOthers: true,
-        id: 16
+        id: 16,
       },
       {
         name: 'Pitches',
@@ -177,7 +177,7 @@ const schedule: Array<Day> = [
         start: '12:30',
         end: '14:30',
         openForOthers: true,
-        id: 17
+        id: 17,
       },
       {
         name: 'Buffet & Drinks*',
@@ -185,7 +185,7 @@ const schedule: Array<Day> = [
         start: '14:30',
         end: '15:00',
         openForOthers: true,
-        id: 18
+        id: 18,
       },
       {
         name: 'Preisverleihung',
@@ -193,16 +193,17 @@ const schedule: Array<Day> = [
         start: '15:00',
         end: '15:30',
         openForOthers: true,
-        id: 19
+        id: 19,
       },
       {
         name: '🎊 Networking & Abschlussparty 🎉',
-        description: 'Austausch mit anderen Teilnehmern, Besuchern und Sponsoren. Musik, Drinks & Snacks.',
+        description:
+          'Austausch mit anderen Teilnehmern, Besuchern und Sponsoren. Musik, Drinks & Snacks.',
         start: '15:30',
         end: 'offen',
         openForOthers: true,
-        id: 20
-      }
+        id: 20,
+      },
     ],
   },
 ]
@@ -310,8 +311,14 @@ function TimeSlots({ day, className }: { day: Day; className?: string }) {
             </p>
           )}
           {timeSlot.openForOthers && (
-            <p className="mt-1 tracking-tight text-sm font-medium text-l3-400">
-              Offen mit <a href='#' className='underline decoration-dashed decoration-1 underline-offset-2 hover:text-l3-200 text-l3-400'>Besucherticket</a>
+            <p className="mt-1 text-sm font-medium tracking-tight text-l3-400">
+              Offen mit{' '}
+              <a
+                href="#"
+                className="text-l3-400 underline decoration-dashed decoration-1 underline-offset-2 hover:text-l3-200"
+              >
+                Besucherticket
+              </a>
             </p>
           )}
           <p className="mt-1 font-mono text-sm text-zinc-400">
@@ -344,14 +351,20 @@ function ScheduleStatic() {
 
 export function Schedule() {
   return (
-    <section id="schedule" aria-label="Schedule" className="py-20 sm:py-32 bg-zinc-950">
+    <section
+      id="schedule"
+      aria-label="Schedule"
+      className="bg-zinc-950 py-20 sm:py-32"
+    >
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="font-display text-4xl font-medium tracking-tighter text-white">
-          Der Zeitplan im Überblick
+            Der Zeitplan im Überblick
           </h2>
           <p className="mt-4 font-display text-xl tracking-tight text-zinc-400">
-          Erlebe drei Tage voller Herausforderungen, intensiver Arbeitsphasen und Networking. Triff neue Leute, erweitere dein Netzwerk und gewinne mit deinem Team das Preisgeld. 
+            Erlebe drei Tage voller Herausforderungen, intensiver Arbeitsphasen
+            und Networking. Triff neue Leute, erweitere dein Netzwerk und
+            gewinne mit deinem Team das Preisgeld. 
           </p>
         </div>
       </Container>
