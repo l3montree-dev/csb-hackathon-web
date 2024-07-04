@@ -30,7 +30,7 @@ export default function MarketingSponsor() {
                 href="mailto:sponsor@cybersecurity-hackathon.de"
               >
                 sponsor@cybersecurity-hackathon.de
-              </a>
+              </a>{' '}
               und sichern Sie sich noch heute Ihre Sponsorschaft.
             </p>
           </div>

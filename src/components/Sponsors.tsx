@@ -131,7 +131,7 @@ export function Sponsors() {
           <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
             <Button href="#">Kontakt aufnehmen</Button>
             <a
-              href="#"
+              href="/sponsor"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
               Mehr erfahren <span aria-hidden="true">→</span>

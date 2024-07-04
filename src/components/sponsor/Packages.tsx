@@ -1,5 +1,9 @@
 import { Fragment } from 'react'
-import { CheckIcon, MinusIcon } from '@heroicons/react/20/solid'
+import {
+  CheckIcon,
+  InformationCircleIcon,
+  MinusIcon,
+} from '@heroicons/react/20/solid'
 import { classNames } from '@/utils/utils'
 
 const tiers = [
@@ -84,7 +88,7 @@ export default function Example() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-5xl text-center">
           <h2 className="text-base font-semibold leading-7 text-l3-600">
-            Sponsoren-Packete
+            Sponsoren-Pakete
           </h2>
           <p className="mt-2 font-display text-5xl font-medium tracking-tighter text-zinc-950">
             Vorteile des Sponsorings auf einen Blick
@@ -272,6 +276,22 @@ export default function Example() {
                 ))}
               </tbody>
             </table>
+          </div>
+        </div>
+        <div className="mt-8">
+          <div className="flex">
+            <div className="flex-shrink-0">
+              <InformationCircleIcon
+                className="h-5 w-5 text-zinc-800"
+                aria-hidden="true"
+              />
+            </div>
+            <div className="ml-3 flex-1 md:flex md:justify-between">
+              <p className="text-sm text-zinc-900">
+                Voraussetzung für das Start-Up-Paket: Das Unternehmen ist jünger
+                als 3 Jahre und hat weniger als 5 Mitarbeitende.
+              </p>
+            </div>
           </div>
         </div>
       </div>

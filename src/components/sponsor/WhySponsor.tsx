@@ -3,31 +3,34 @@ import {
   CloudArrowUpIcon,
   FingerPrintIcon,
   LockClosedIcon,
+  RocketLaunchIcon,
+  AcademicCapIcon,
+  UsersIcon,
 } from '@heroicons/react/24/outline'
 
 const features = [
   {
-    name: 'Push to deploy',
+    name: 'Innovationen fördern',
     description:
-      'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
-    icon: CloudArrowUpIcon,
+      'Unterstützen Sie die Entwicklung innovativer Lösungen für die Herausforderungen der Open-Source-Software-Sicherheit. Ihre Unterstützung hilft dabei, die besten Ideen und Talente zu fördern.',
+    icon: RocketLaunchIcon,
   },
   {
-    name: 'SSL certificates',
+    name: 'Recruiting-Möglichkeiten',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
-    icon: LockClosedIcon,
+      'Treffen Sie auf hochqualifizierte Fachkräfte und Talente, die Ihre Organisation bereichern können. Nutzen Sie die Veranstaltung, um potenzielle Mitarbeiter kennenzulernen und von Ihren Karrierechancen zu überzeugen.',
+    icon: AcademicCapIcon,
   },
   {
-    name: 'Simple queues',
+    name: 'Netzwerken und Partnerschaften',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
-    icon: ArrowPathIcon,
+      'Knüpfen Sie wertvolle Kontakte mit anderen Unternehmen, Experten und Teilnehmern. Nutzen Sie die Gelegenheit, Ihr Netzwerk zu erweitern und neue Partnerschaften zu etablieren.',
+    icon: UsersIcon,
   },
   {
-    name: 'Advanced security',
+    name: 'Sichtbarkeit und Reichweite',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+      'Präsentieren Sie Ihre Marke einem breiten Publikum aus Technologie-Enthusiasten, Entwicklern, Unternehmen und potenziellen zukünftigen Partnern.',
     icon: FingerPrintIcon,
   },
 ]
@@ -37,24 +40,16 @@ export default function WhySponsor() {
     <div className="bg-zinc-900 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-indigo-600">
-            Deploy faster
+          <h2 className="mt-2 font-display text-5xl font-medium tracking-tighter text-white">
+            Warum Sponsor werden?
           </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Everything you need to deploy your app
-          </p>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-            Suspendisse eget egestas a elementum pulvinar et feugiat blandit at.
-            In mi viverra elit nunc.
-          </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
-                <dt className="text-base font-semibold leading-7 text-gray-900">
-                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                <dt className="text-base font-semibold leading-7 text-white">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-l3-500">
                     <feature.icon
                       className="h-6 w-6 text-white"
                       aria-hidden="true"
@@ -62,7 +57,7 @@ export default function WhySponsor() {
                   </div>
                   {feature.name}
                 </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-600">
+                <dd className="mt-2 text-base leading-7 text-zinc-200">
                   {feature.description}
                 </dd>
               </div>
