@@ -29,15 +29,15 @@ export function Hero() {
             </h1>
             <p className="mt-6 text-lg text-gray-200">
               Lasst uns gemeinsam Lösungen für die spannendsten Probleme der
-              Cybersecurity Welt finden! Der "Cybersecurity Hackathon" ist eine
-              jährliche Veranstaltung in der Region:
+              Cybersecurity Welt finden! Der &quot;Cybersecurity Hackathon&quot;
+              ist eine jährliche Veranstaltung in der Region:
             </p>
             <p className="mt-4 text-lg font-bold text-l3-400">
               Preisgeld: 3.000 € für das Gewinnerteam
             </p>
             <p className="mt-4 text-lg text-gray-200">
               48 Stunden Zeit, coole Leute, geile technische Problemstellungen +
-              Networking, Drinks 'n Food und eine große Abschlussparty
+              Networking, Drinks &apos;n Food und eine große Abschlussparty
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Button

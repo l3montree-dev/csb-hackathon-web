@@ -6,7 +6,24 @@ import {
 } from '@heroicons/react/20/solid'
 import { classNames } from '@/utils/utils'
 
-const tiers = [
+type Tier = {
+  name: string
+  id: string
+  href: string
+  price: string
+  description: string
+  mostPopular: boolean
+}
+
+type Section = {
+  name: string
+  features: {
+    name: string
+    tiers: Record<string, string | boolean>
+  }[]
+}
+
+const tiers: Tier[] = [
   {
     name: 'Startup',
     id: 'tier-startup',
@@ -33,7 +50,8 @@ const tiers = [
     mostPopular: true,
   },
 ]
-const sections = [
+
+const sections: Section[] = [
   {
     name: 'Präsentationsmöglichkeiten',
     features: [

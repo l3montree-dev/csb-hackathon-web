@@ -21,11 +21,6 @@ jobs:
       # Running Gitleaks to scan the code for secrets
       run: |
         docker run --rm -v $(pwd):/code -u $(id -u):$(id -g) zricethezav/gitleaks:v8.18.1 -s /code detect -f sarif -r /code/gitleaks.sarif.json
-    - name: Upload sarif file
-      uses: github/codeql-action/upload-sarif@v3
-      with:
-        sarif_file: gitleaks.sarif.json
-        category: secret-scanning
 
   # Software Composition Analysis (SCA) to find vulnerabilities in project dependencies
   sca:
@@ -39,14 +34,8 @@ jobs:
       with:
         scan-type: "fs"
         scan-ref: "."
-        severity: "CRITICAL,HIGH"
-        format: "sarif"
-        output: "trivy-results.sarif"
-    - name: Upload Trivy scan results to GitHub Security tab
-      uses: github/codeql-action/upload-sarif@v2
-      with:
-        sarif_file: "trivy-results.sarif"
-        category: "sca"
+        severity: "CRITICAL"
+        exit-code: "1"
 
   # Static Application Security Testing (SAST) to identify security vulnerabilities in source code
   sast:
@@ -59,11 +48,7 @@ jobs:
       uses: docker://returntocorp/semgrep
       with:
         args: semgrep scan /github/workspace --sarif -o /github/workspace/semgrep.sarif.json
-    - name: Upload sarif file
-      uses: github/codeql-action/upload-sarif@v3
-      with:
-        sarif_file: semgrep.sarif.json
-        category: sast
+
   # Docker image build job
   build-image:
     runs-on: ubuntu-latest
