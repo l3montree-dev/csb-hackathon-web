@@ -1,5 +1,12 @@
 import Image from 'next/image'
 import { Button } from './Button'
+import LastTimeSponsors from './LastTimeSponsors'
+
+const stats = [
+  { id: 1, name: 'Teilnehmende', value: '35+' },
+  { id: 2, name: 'Stunden Zeit', value: '40' },
+  { id: 3, name: 'Preisgeld', value: '3.000 €' },
+]
 
 export default function LastTimeImpressions() {
   return (
@@ -80,6 +87,19 @@ export default function LastTimeImpressions() {
                   <span aria-hidden="true">→</span>
                 </a>
               </div>
+              <dl className="mt-16 hidden grid-cols-1 gap-x-4 gap-y-8 text-white sm:mt-20 sm:grid-cols-2 sm:gap-y-10 lg:flex lg:grid-cols-4">
+                {stats.map((stat) => (
+                  <div
+                    key={stat.id}
+                    className="flex flex-col gap-y-3 border-l border-white/10 pl-6"
+                  >
+                    <dt className="text-sm leading-6">{stat.name}</dt>
+                    <dd className="order-first text-3xl font-semibold tracking-tight">
+                      {stat.value}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
             </div>
             <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
               <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
@@ -142,7 +162,12 @@ export default function LastTimeImpressions() {
           </div>
         </div>
       </div>
-      <div className="">
+      <div>
+        <div className="mx-auto -mt-8 max-w-7xl px-6 lg:px-8">
+          <LastTimeSponsors />
+        </div>
+      </div>
+      <div className="mt-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <Image
             src="/teilnehmende.jpg"

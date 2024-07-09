@@ -1,3 +1,4 @@
+import ContactPerson from '@/components/sponsor/ContactPerson'
 import MarketingSponsor from '@/components/sponsor/MarketingSponsor'
 import Packages from '@/components/sponsor/Packages'
 import SponsorHero from '@/components/sponsor/SponsorHero'
@@ -10,6 +11,7 @@ export default function Home() {
       <WhySponsor />
       <Packages />
       <MarketingSponsor />
+      <ContactPerson />
     </>
   )
 }

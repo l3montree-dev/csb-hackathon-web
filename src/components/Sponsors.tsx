@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Container } from '@/components/Container'
 import { Button } from './Button'
+import LastTimeSponsors from './LastTimeSponsors'
 
 export function Sponsors() {
   return (

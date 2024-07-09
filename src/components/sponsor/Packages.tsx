@@ -11,7 +11,6 @@ type Tier = {
   id: string
   href: string
   price: string
-  description: string
   mostPopular: boolean
 }
 
@@ -29,7 +28,6 @@ const tiers: Tier[] = [
     id: 'tier-startup',
     href: '#',
     price: '200 €',
-    description: 'Quis suspendisse ut fermentum neque vivamus non tellus.',
     mostPopular: false,
   },
   {
@@ -37,7 +35,6 @@ const tiers: Tier[] = [
     id: 'tier-silver',
     href: '#',
     price: '2.000 €',
-    description: 'Quis eleifend a tincidunt pellentesque. A tempor in sed.',
     mostPopular: false,
   },
   {
@@ -45,8 +42,6 @@ const tiers: Tier[] = [
     id: 'tier-gold',
     href: '#',
     price: '4.000 €',
-    description:
-      'Orci volutpat ut sed sed neque, dui eget. Quis tristique non.',
     mostPopular: true,
   },
 ]
@@ -60,11 +55,20 @@ const sections: Section[] = [
         tiers: { Startup: false, Silber: false, Gold: true },
       },
       {
-        name: 'Gelegenheit einen eigenen 30 min Workshop anzuieten',
+        name: 'Gelegenheit einen eigenen 30 min Workshop anzubieten',
         tiers: { Startup: false, Silber: false, Gold: true },
       },
       {
         name: 'Platz in der Jury',
+        tiers: { Startup: false, Silber: false, Gold: true },
+      },
+    ],
+  },
+  {
+    name: 'Spezielle Recruitingmöglichkeit',
+    features: [
+      {
+        name: 'Möglichkeit, Praktika an die Teilnehmer des Siegerteams anzubieten',
         tiers: { Startup: false, Silber: false, Gold: true },
       },
     ],
@@ -80,7 +84,7 @@ const sections: Section[] = [
         name: 'Direkter Zugang zu den Teilnehmenden',
         tiers: {
           Startup: 'Sonntag',
-          Silber: 'Sonntag',
+          Silber: 'Freitag & Sonntag',
           Gold: 'Freitag, Samstag & Sonntag',
         },
       },
