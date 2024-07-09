@@ -59,7 +59,7 @@ const sections = [
         tiers: { Startup: '2qm', Silber: '5qm', Gold: '6qm' },
       },
       {
-        name: 'Direkter Zugang zu den Teilnehmern',
+        name: 'Direkter Zugang zu den Teilnehmenden',
         tiers: {
           Startup: 'Sonntag',
           Silber: 'Sonntag',
@@ -67,11 +67,11 @@ const sections = [
         },
       },
       {
-        name: 'Kostenlose Teilnehmerausweise für Mitarbeiter',
+        name: 'Kostenloser Zugang für Mitarbeitende',
         tiers: { Startup: '2', Silber: '2', Gold: '4' },
       },
       {
-        name: 'Exklusive E-Mail vor oder nach der Konferenz an die Teilnehmer (nach Absprache)',
+        name: 'Exklusive E-Mail vor oder nach der Konferenz an die Teilnehmende (nach Absprache)',
         tiers: { Startup: false, Silber: true, Gold: true },
       },
       {

@@ -19,11 +19,12 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - DeceptiConf',
-    default: 'DeceptiConf - A community-driven design conference',
+    template: '%s - Cybersecurity Hackathon',
+    default:
+      'Cybersecurity Hackathon 2024 - 08. bis 10. November in Bonn - Open Source Software Security',
   },
   description:
-    'At DeceptiConf you’ll learn about the latest dark patterns being developed to trick even the smartest visitors, and you’ll learn how to deploy them without ever being detected.',
+    'Der Cybersecurity Hackathon 2024 in Bonn ist ein Event für alle, die sich für Open-Source-Software-Sicherheit interessieren. Sei dabei und entwickle innovative Lösungen!',
 }
 
 export default function RootLayout({

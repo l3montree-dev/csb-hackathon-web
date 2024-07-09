@@ -17,11 +17,11 @@ export default function MarketingSponsor() {
               Marketing-Werbemöglichkeit
             </h3>
             <p className="mt-6 text-base leading-7 text-gray-600">
-              Das Logo des Sponsors wird auf dem Ärmel aller Teilnehmer-T-Shirts
-              angebracht. Größe, Farbe und Platzierung des Logos richten sich
-              nach dem Design des T-Shirts und unterliegen der Genehmigung durch
-              die Organisatoren. Das Logo darf nur einfarbig sein (keine
-              Farbverläufe).
+              Das Logo des Sponsors wird auf dem Ärmel aller
+              Teilnehmenden-T-Shirts angebracht. Größe, Farbe und Platzierung
+              des Logos richten sich nach dem Design des T-Shirts und
+              unterliegen der Genehmigung durch die Organisatoren. Das Logo darf
+              nur einfarbig sein (keine Farbverläufe).
             </p>
             <p className="mt-6 text-base leading-7 text-gray-600">
               Wenden Sie sich an{' '}

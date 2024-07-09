@@ -10,7 +10,7 @@ export default function LastTimeImpressions() {
       >
         <defs>
           <pattern
-            id="1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84"
+            id="CkSiQ2eH4rJuahLyKoWgppc5kzQaBRtN"
             width={200}
             height={200}
             x="50%"
@@ -30,7 +30,7 @@ export default function LastTimeImpressions() {
           width="100%"
           height="100%"
           strokeWidth={0}
-          fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)"
+          fill="url(#CkSiQ2eH4rJuahLyKoWgppc5kzQaBRtN)"
         />
       </svg>
       <div className="overflow-hidden">
@@ -38,14 +38,27 @@ export default function LastTimeImpressions() {
           <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
             <div className="relative w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
               <h2 className="font-display text-4xl font-medium tracking-tighter text-white">
-                We’re changing the way people connect.
+                Eindrücke von Cybersecurity Hackathon 2023
               </h2>
-              <p className="mt-6 text-base leading-8 text-zinc-100 sm:max-w-md lg:max-w-none">
-                Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in quis
-                cupidatat mollit aute velit. Et labore commodo nulla aliqua
-                proident mollit ullamco exercitation tempor. Sint aliqua anim
-                nulla sunt mollit id pariatur in voluptate cillum.
-              </p>
+
+              <figure className="mt-10 border-l border-l3-500 pl-9">
+                <blockquote className="font-semibold text-zinc-100">
+                  <p>
+                    “Ich studiere an der Uni Bonn und habe mich auf Computer
+                    Vision spezialisiert. Beim Hackathon mache ich mit, weil ich
+                    das Teamwork genieße und das Gefühl mag, dass man in sehr
+                    kurzer Zeit etwas lernen und sogar etwas aufbauen kann. Und
+                    es hilft mir wirklich sehr, mein Selbstvertrauen zu
+                    stärken.”
+                  </p>
+                </blockquote>
+                <figcaption className="mt-6 flex gap-x-4">
+                  <div className="text-sm leading-6 text-zinc-100">
+                    <strong className="font-semibold">Xi</strong> – Teilnehmerin
+                    2023
+                  </div>
+                </figcaption>
+              </figure>
               <div className="mt-10 flex items-center gap-x-6">
                 <Button
                   href="https://www.youtube.com/watch?v=I49TUI5Rly4"

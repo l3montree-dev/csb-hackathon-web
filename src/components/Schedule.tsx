@@ -52,7 +52,7 @@ const schedule: Array<Day> = [
         id: 3,
       },
       {
-        name: 'Abendessen*',
+        name: 'Abendessen',
         description: '🥬 🥔 🥙 🧆 🌮 🍔',
         start: '19:30',
         end: '20:30',
@@ -84,7 +84,7 @@ const schedule: Array<Day> = [
         id: 6,
       },
       {
-        name: 'Frühstück*',
+        name: 'Frühstück',
         description: '🥞 🥨 🍎 🥐 🥯 ☕',
         start: '10:00',
         end: '11:00',
@@ -100,7 +100,7 @@ const schedule: Array<Day> = [
         id: 8,
       },
       {
-        name: 'Mittagessen*',
+        name: 'Mittagessen',
         description: '🥬 🥔 🥙 🧆 🌮 🍔',
         start: '14:00',
         end: '15:00',
@@ -124,7 +124,7 @@ const schedule: Array<Day> = [
         id: 11,
       },
       {
-        name: 'Abendessen*',
+        name: 'Abendessen',
         description: '🥬 🥔 🥙 🧆 🌮 🍔',
         start: '18:30',
         end: '19:30',
@@ -156,7 +156,7 @@ const schedule: Array<Day> = [
         id: 14,
       },
       {
-        name: 'Frühstück*',
+        name: 'Frühstück',
         description: '🥞 🥨 🍎 🥐 🥯 ☕',
         start: '10:00',
         end: '11:00',
@@ -180,7 +180,7 @@ const schedule: Array<Day> = [
         id: 17,
       },
       {
-        name: 'Buffet & Drinks*',
+        name: 'Buffet & Drinks',
         description: '🍕 🍣 🍷 🍺 🍹 🍸',
         start: '14:30',
         end: '15:00',

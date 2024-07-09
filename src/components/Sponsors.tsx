@@ -26,27 +26,14 @@ export function Sponsors() {
           </div>
           <div className="mx-auto grid w-full max-w-2xl grid-cols-1 items-center gap-x-12 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:pl-8">
             <a
-              href="https://zendis.de/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                className="max-h-26 lg:max-h-26 w-full object-contain object-left"
-                src="/zendis.svg"
-                alt="Tuple"
-                width={105}
-                height={48}
-              />
-            </a>
-            <a
               href="https://www.digitalhub.de/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image
-                className="max-h-26 w-full object-contain object-left lg:max-h-24"
+                className="max-h-26 w-full object-contain object-right lg:max-h-24"
                 src="/digitalhub.svg"
-                alt="Reform"
+                alt="DigitalHub Bonn Logo"
                 width={104}
                 height={48}
               />
@@ -55,36 +42,48 @@ export function Sponsors() {
         </div>
         <div className="mx-auto mt-20 max-w-2xl lg:max-w-none">
           <h3 className="text-xl font-semibold leading-8 text-zinc-900">
-            Silber Sponsoren
+            Community Partner
           </h3>
-          <div className="-mx-6 mt-2 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
-            <div className="bg-zinc-400/5 p-8 sm:p-10">
+          <div className="mx-auto mt-10 grid grid-cols-4 items-start gap-x-8 gap-y-10 sm:gap-x-10 lg:mx-0">
+            <a
+              href="https://cyber-security-cluster.eu/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
-                className="max-h-16 w-full object-contain"
+                className="col-span-2 max-h-16 w-full object-contain object-left lg:col-span-1"
                 src="/ccb-logo.png"
-                alt="Transistor"
+                alt="Cybersecurity Cluster Bonn e.V. Logo"
                 width={158}
                 height={48}
               />
-            </div>
-            <div className="bg-zinc-400/5 p-6 sm:p-10">
+            </a>
+            <a
+              href="https://www.h-brs.de/en/gruenden/start-up-manufaktur/about"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
-                className="max-h-16 w-full object-contain"
-                src="/Bundesnetzagentur_logo.svg"
-                alt="Reform"
+                className="col-span-2 max-h-14 w-full object-contain object-center lg:col-span-1"
+                src="/startup-man-w.png"
+                alt="Startup Manufaktur Logo"
                 width={158}
                 height={48}
               />
-            </div>
-            <div className="bg-zinc-400/5 p-6 sm:p-10">
+            </a>
+            <a
+              href="https://www.uni-bonn.de/de/forschung-lehre/transfercenter-enacom"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
-                className="max-h-16 w-full object-contain"
-                src="/wheregroup.svg"
-                alt="Tuple"
+                className="col-span-2 max-h-16 w-full object-contain object-center lg:col-span-1"
+                src="/enacom.jpg"
+                alt="Enacom Logo"
                 width={158}
                 height={48}
               />
-            </div>
+            </a>
           </div>
         </div>
         <div className="mx-auto mt-20 max-w-2xl lg:max-w-none">
@@ -92,34 +91,32 @@ export function Sponsors() {
             Akademische Partner
           </h3>
           <div className="mx-auto mt-10 grid grid-cols-4 items-start gap-x-8 gap-y-10 sm:gap-x-10 lg:mx-0">
-            <Image
-              className="col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1"
-              src="/hbrs.svg"
-              alt="Transistor"
-              width={158}
-              height={48}
-            />
-            <Image
-              className="col-span-2 max-h-12 w-full object-contain object-center lg:col-span-1"
-              src="/startup-man-w.png"
-              alt="Transistor"
-              width={158}
-              height={48}
-            />
-            <Image
-              className="col-span-2 max-h-12 w-full object-contain object-center lg:col-span-1"
-              src="/uni-bonn.jpg"
-              alt="Reform"
-              width={158}
-              height={48}
-            />
-            <Image
-              className="col-span-2 max-h-12 w-full object-contain object-center lg:col-span-1"
-              src="/enacom.jpg"
-              alt="Transistor"
-              width={158}
-              height={48}
-            />
+            <a
+              href="https://www.h-brs.de/de"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                className="col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1"
+                src="/hbrs.svg"
+                alt="Hochschule Bonn-Rhein-Sieg Logo"
+                width={158}
+                height={48}
+              />
+            </a>
+            <a
+              href="https://www.uni-bonn.de/de"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                className="col-span-2 max-h-12 w-full object-contain object-center lg:col-span-1"
+                src="/uni-bonn.jpg"
+                alt="Universität Bonn Logo"
+                width={158}
+                height={48}
+              />
+            </a>
           </div>
         </div>
         <div className="mt-20 border-b border-t border-zinc-200 py-12 lg:flex lg:items-center lg:justify-between">
@@ -129,7 +126,9 @@ export function Sponsors() {
             Kontaktiere uns!
           </h4>
           <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
-            <Button href="#">Kontakt aufnehmen</Button>
+            <Button href="mailto:sponsor@cybersecurity-hackathon.de?subject=Cybersecurity Hackathon 2024 Sponsoring">
+              Kontakt aufnehmen
+            </Button>
             <a
               href="/sponsor"
               className="text-sm font-semibold leading-6 text-gray-900"

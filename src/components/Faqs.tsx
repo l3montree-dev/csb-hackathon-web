@@ -48,7 +48,7 @@ export default function Faqs() {
           Du hast eine andere Frage und kannst die Antwort nicht finden, die du
           suchst? Dann{' '}
           <a
-            href="#"
+            href="mailto:community@cybersecurity-hackathon.de"
             target="_blank"
             rel="noopener noreferrer"
             className="text-l3-400 underline decoration-dashed decoration-1 underline-offset-2 hover:text-l3-200"

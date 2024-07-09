@@ -1,0 +1,3 @@
+User-Agent: *
+Allow: /
+Sitemap: https://l3montree.com/sitemap.xml
