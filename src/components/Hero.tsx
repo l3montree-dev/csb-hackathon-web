@@ -32,7 +32,7 @@ export function Hero() {
               Cybersecurity Welt finden! Der &quot;Cybersecurity Hackathon&quot;
               ist eine jährliche Veranstaltung in der Region:
             </p>
-            <p className="mt-4 text-lg font-bold text-l3-400">
+            <p className="mt-4 text-lg font-semibold text-l3-400">
               Preisgeld: 3.000 € für das Gewinnerteam
             </p>
             <p className="mt-4 text-lg text-gray-200">

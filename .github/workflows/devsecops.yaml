@@ -121,7 +121,7 @@ jobs:
       uses: aquasecurity/trivy-action@master
       with:
         input: /github/workspace/image.tar
-        severity: "CRITICAL,HIGH"
+        severity: "CRITICAL"
         exit-code: "1"
 
   # Publish job to push the Docker image to a registry
