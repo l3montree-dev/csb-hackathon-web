@@ -41,13 +41,7 @@ export function Hero() {
               Abschlussparty
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <Button
-                href="https://pretix.eu/l3montree/cybers-hack-2024/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Kostenlos teilnehmen
-              </Button>
+              <Button href="/coming-soon">Kostenlos teilnehmen</Button>
             </div>
           </div>
         </div>

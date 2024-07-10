@@ -37,7 +37,7 @@ export default function Example() {
         <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
           <div className="mt-24 sm:mt-32 lg:mt-16">
             <a
-              href="mailto:sponsor@cybersecurity-hackathon.de"
+              href="mailto:sponsor@cybersecurity-hackathon.de?subject=Cybersecurity Hackathon 2024 Sponsoring"
               className="inline-flex space-x-6"
             >
               <span className="rounded-full bg-l3-500/10 px-3 py-1 text-sm font-semibold leading-6 text-l3-400 ring-1 ring-inset ring-l3-500/20">

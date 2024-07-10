@@ -127,14 +127,12 @@ export function Sponsors() {
             Kontaktiere uns!
           </h4>
           <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
-            <Button href="mailto:sponsor@cybersecurity-hackathon.de?subject=Cybersecurity Hackathon 2024 Sponsoring">
-              Kontakt aufnehmen
-            </Button>
+            <Button href="/sponsor">Details zum Sponsoring</Button>
             <a
-              href="/sponsor"
+              href="mailto:sponsor@cybersecurity-hackathon.de?subject=Cybersecurity Hackathon 2024 Sponsoring"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
-              Details zum Sponsoring <span aria-hidden="true">→</span>
+              Kontakt aufnehmen <span aria-hidden="true">→</span>
             </a>
           </div>
         </div>

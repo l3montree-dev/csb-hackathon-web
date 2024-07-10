@@ -27,7 +27,7 @@ export default function MarketingSponsor() {
               Wenden Sie sich an{' '}
               <a
                 className="text-l3-500 underline decoration-dashed decoration-1 underline-offset-2 hover:text-l3-300"
-                href="mailto:sponsor@cybersecurity-hackathon.de"
+                href="mailto:sponsor@cybersecurity-hackathon.de?subject=Cybersecurity Hackathon 2024 Sponsoring - Marketing-Werbemöglichkeit - T-Shirts"
               >
                 sponsor@cybersecurity-hackathon.de
               </a>{' '}

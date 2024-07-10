@@ -60,7 +60,7 @@ export default function Faqs() {
         <p className="mt-6 max-w-2xl text-base leading-7 text-gray-300">
           Bei allen Veranstaltungen von L3montree gilt unser{' '}
           <a
-            href="https://github.com/l3montree-dev/flawfix/blob/main/CODE_OF_CONDUCT.md"
+            href="https://github.com/l3montree-dev/devguard/blob/main/CODE_OF_CONDUCT.md"
             target="_blank"
             rel="noopener noreferrer"
             className="text-l3-400 underline decoration-dashed decoration-1 underline-offset-2 hover:text-l3-200"
