@@ -106,8 +106,8 @@ export default function LastTimeImpressions() {
                 <div className="relative">
                   <Image
                     src="/IMG_5574.jpg"
-                    height={1000}
-                    width={1500}
+                    height={1500}
+                    width={1000}
                     alt=""
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                   />
@@ -118,8 +118,8 @@ export default function LastTimeImpressions() {
                 <div className="relative">
                   <Image
                     src="/IMG_5629.jpg"
-                    height={1000}
-                    width={1500}
+                    height={1500}
+                    width={1000}
                     alt=""
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                   />
@@ -128,8 +128,8 @@ export default function LastTimeImpressions() {
                 <div className="relative">
                   <Image
                     src="/IMG_5647.jpg"
-                    height={1000}
-                    width={1500}
+                    height={1500}
+                    width={1000}
                     alt=""
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                   />
@@ -140,8 +140,8 @@ export default function LastTimeImpressions() {
                 <div className="relative">
                   <Image
                     src="/IMG_5701.jpg"
-                    height={1000}
-                    width={1500}
+                    height={1500}
+                    width={1000}
                     alt=""
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                   />
@@ -150,8 +150,8 @@ export default function LastTimeImpressions() {
                 <div className="relative">
                   <Image
                     src="/IMG_5471.jpg"
-                    height={1000}
-                    width={1500}
+                    height={1500}
+                    width={1000}
                     alt=""
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                   />
