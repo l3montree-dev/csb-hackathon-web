@@ -173,8 +173,8 @@ export default function LastTimeImpressions() {
             src="/teilnehmende.jpg"
             alt="App screenshot"
             className="rounded-lg shadow-2xl ring-1 ring-white/10"
-            width={2432}
-            height={1442}
+            width={1000}
+            height={800}
           />
         </div>
       </div>
