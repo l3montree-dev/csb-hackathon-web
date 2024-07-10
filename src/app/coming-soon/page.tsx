@@ -15,7 +15,7 @@ export default function Home() {
         alt=""
         height={1080}
         width={1920}
-        className="absolute inset-0 -z-10 h-full w-full object-fill opacity-20"
+        className="absolute inset-0 -z-10 h-full w-full object-cover opacity-20"
       />
       <div className="mx-auto max-w-7xl px-6 py-32 text-center sm:py-40 lg:px-8">
         <p className="text-2xl font-semibold leading-8 text-white">

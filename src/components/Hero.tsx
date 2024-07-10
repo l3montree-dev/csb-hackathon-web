@@ -3,7 +3,7 @@ import { Button } from './Button'
 export function Hero() {
   return (
     <div className="bg-zinc-950">
-      <div className="relative isolate overflow-hidden pt-20">
+      <div className="relative isolate overflow-hidden px-6 pt-20">
         <video
           src="/blueprint-for-software-1-5.mp4"
           className="absolute inset-0 -z-10 h-full w-full object-cover opacity-10"

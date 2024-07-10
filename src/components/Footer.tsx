@@ -4,7 +4,7 @@ import Image from 'next/image'
 export function Footer() {
   return (
     <footer className="flex-none bg-zinc-900 py-16">
-      <Container className="flex flex-col items-center justify-between md:flex-row">
+      <Container className="flex flex-col items-start justify-between md:flex-row lg:items-center">
         <Image
           src="/l3montree-logo-ce.svg"
           width={300}
@@ -12,8 +12,8 @@ export function Footer() {
           className="h-16 w-auto"
           alt=""
         />
-        <div className="text-sm text-zinc-400">
-          <div className="flex flex-1 justify-end">
+        <div className="mt-12 text-sm text-zinc-400 lg:mt-0">
+          <div className="flex flex-1 justify-start lg:justify-end">
             <a
               className="mr-10"
               href="https://l3montree.com/impressum"

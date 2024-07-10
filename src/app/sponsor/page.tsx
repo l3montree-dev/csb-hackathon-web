@@ -7,7 +7,9 @@ import WhySponsor from '@/components/sponsor/WhySponsor'
 export default function Home() {
   return (
     <>
-      <SponsorHero />
+      <div className="pt-20 lg:pt-0">
+        <SponsorHero />
+      </div>
       <WhySponsor />
       <Packages />
       <MarketingSponsor />

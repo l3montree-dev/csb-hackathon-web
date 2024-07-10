@@ -32,7 +32,7 @@ export function Sponsors() {
               rel="noopener noreferrer"
             >
               <Image
-                className="max-h-26 w-full object-contain object-right lg:max-h-24"
+                className="lg:max-h-26 max-h-24 w-full object-contain object-center lg:max-h-24 lg:object-right"
                 src="/digitalhub.svg"
                 alt="DigitalHub Bonn Logo"
                 width={104}
@@ -45,14 +45,14 @@ export function Sponsors() {
           <h3 className="text-xl font-semibold leading-8 text-zinc-900">
             Community Partner
           </h3>
-          <div className="mx-auto mt-10 grid grid-cols-4 items-start gap-x-8 gap-y-10 sm:gap-x-10 lg:mx-0">
+          <div className="mx-auto mt-10 grid grid-cols-2 items-start gap-x-8 gap-y-10 sm:gap-x-10 lg:mx-0 lg:grid-cols-4">
             <a
               href="https://cyber-security-cluster.eu/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image
-                className="col-span-2 max-h-16 w-full object-contain object-left lg:col-span-1"
+                className="col-span-2 max-h-14 w-full object-contain object-left lg:col-span-1 lg:max-h-16"
                 src="/ccb-logo.png"
                 alt="Cybersecurity Cluster Bonn e.V. Logo"
                 width={158}
@@ -65,7 +65,7 @@ export function Sponsors() {
               rel="noopener noreferrer"
             >
               <Image
-                className="col-span-2 max-h-14 w-full object-contain object-center lg:col-span-1"
+                className="col-span-2 max-h-12 w-full object-contain object-center lg:col-span-1 lg:max-h-14"
                 src="/startup-man-w.png"
                 alt="Startup Manufaktur Logo"
                 width={158}
@@ -78,7 +78,7 @@ export function Sponsors() {
               rel="noopener noreferrer"
             >
               <Image
-                className="col-span-2 max-h-16 w-full object-contain object-center lg:col-span-1"
+                className="col-span-2 max-h-14 w-full object-contain object-left lg:col-span-1 lg:max-h-16 lg:object-center"
                 src="/enacom.jpg"
                 alt="Enacom Logo"
                 width={158}
@@ -91,7 +91,7 @@ export function Sponsors() {
           <h3 className="text-xl font-semibold leading-8 text-zinc-900">
             Akademische Partner
           </h3>
-          <div className="mx-auto mt-10 grid grid-cols-4 items-start gap-x-8 gap-y-10 sm:gap-x-10 lg:mx-0">
+          <div className="mx-auto mt-10 grid grid-cols-2 items-center gap-x-8 gap-y-10 sm:gap-x-10 lg:mx-0 lg:grid-cols-4 lg:items-start">
             <a
               href="https://www.h-brs.de/de"
               target="_blank"
