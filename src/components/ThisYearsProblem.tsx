@@ -18,14 +18,21 @@ export default function ThisYearsProblem() {
                 hierbei sichere Software eingesetzt wird?
               </p>
               <p className="mt-6 text-base leading-8 text-zinc-800">
-                Die jüngste Sicherheitslücke in der xz Library hat eindrucksvoll
-                gezeigt, wie essenziell wichtig die Sicherheit in der
-                Open-Source-Entwicklung ist. Für Behörden, Unternehmen und die
-                gesamte Gesellschaft, einschließlich der öffentlichen Verwaltung
-                und der Wirtschaft, ist dies ein bedeutendes Anliegen, das
-                bisher noch unzureichend behandelt ist. Es bedarf konkreter
-                Ansätze, um mehr Sicherheit zu schaffen und dadurch das
-                Vertrauen und den Einsatz von Open-Source-Lösungen zu stärken.
+                Die jüngste Sicherheitslücke in der{' '}
+                <a
+                  href="https://www.heise.de/news/xz-Attacke-Hintertuer-entraetselt-weitere-Details-zu-betroffenen-Distros-9671588.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  XZ-Library
+                </a>{' '}
+                hat eindrucksvoll gezeigt, wie essenziell die Sicherheit in der
+                Open-Source-Entwicklung ist. Für Unternehmen und die gesamte
+                Gesellschaft, einschließlich der öffentlichen Verwaltung und der
+                Wirtschaft, ist dies ein bedeutendes Anliegen, das bisher noch
+                unzureichend behandelt ist. Es bedarf konkreter Ansätze, um mehr
+                Sicherheit zu schaffen und dadurch das Vertrauen und den Einsatz
+                von Open-Source-Lösungen zu stärken.
               </p>
             </div>
           </div>

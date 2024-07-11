@@ -30,13 +30,13 @@ export function Hero() {
             <p className="mt-6 text-lg text-gray-200">
               Lasst uns gemeinsam Lösungen für die spannendsten Probleme der
               Cybersecurity Welt finden! Der &quot;Cybersecurity Hackathon&quot;
-              ist die jährliche Veranstaltung in der Region:
+              ist das jährliche Hackathon-Event in der Region Köln-Bonn:
             </p>
             <p className="mt-4 text-lg font-semibold text-l3-400">
               Preisgeld: 3.000 € für das Gewinnerteam
             </p>
             <p className="mt-4 text-lg text-gray-200">
-              48 Stunden Zeit, coole Leute, spannede technische
+              48 Stunden Zeit, coole Leute, spannende technische
               Problemstellungen + Networking, Drinks &apos;n Food und eine große
               Abschlussparty
             </p>

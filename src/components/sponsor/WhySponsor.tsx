@@ -51,7 +51,7 @@ export default function WhySponsor() {
                 <dt className="text-base font-semibold leading-7 text-white">
                   <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-l3-500">
                     <feature.icon
-                      className="h-6 w-6 text-white"
+                      className="h-6 w-6 text-black"
                       aria-hidden="true"
                     />
                   </div>
