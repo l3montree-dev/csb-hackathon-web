@@ -27,6 +27,8 @@ export const metadata: Metadata = {
     'Der Cybersecurity Hackathon 2024 in Bonn ist ein Event für alle, die sich für Open-Source-Software-Sicherheit interessieren. Sei dabei und entwickle innovative Lösungen!',
 }
 
+const env = process.env.NODE_ENV
+
 export default function RootLayout({
   children,
 }: {
@@ -34,13 +36,23 @@ export default function RootLayout({
 }) {
   return (
     <html
-      lang="en"
+      lang="de"
       className={clsx(
         'h-full bg-zinc-950 antialiased',
         inter.variable,
         dmSans.variable,
       )}
     >
+      <head>
+        {env === 'production' && (
+          <script
+            async
+            src="https://umami.l3montree.com/script.js"
+            data-website-id="e3572955-12ea-44c9-9581-634e16bf8b74"
+          ></script>
+        )}
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+      </head>
       <body className="flex min-h-full">
         <div className="flex w-full flex-col">{children}</div>
       </body>

@@ -4,16 +4,13 @@ WORKDIR /usr/app/
 ENV PORT 3000
 EXPOSE 3000
 
-ARG NEXT_PUBLIC_ENVIRONMENT
-ENV NEXT_PUBLIC_ENVIRONMENT=$NEXT_PUBLIC_ENVIRONMENT
-
 COPY package.json .
 COPY package-lock.json .
 RUN npm ci
 
 COPY . .
 
-ENV NODE_ENV production
+ENV NODE_ENV=production
 RUN npm run build
 
 # checkov:skip=CKV_DOCKER_3
@@ -24,7 +21,7 @@ USER 53111
 # checkov:skip=CKV_DOCKER_2
 WORKDIR /usr/app/
 ENV PORT 3000
-ENV NODE_ENV production
+ENV NODE_ENV=production
 
 # Copy libs for prisma
 COPY --from=builder --chown=53111:53111 /usr/app/.next /usr/app/.next

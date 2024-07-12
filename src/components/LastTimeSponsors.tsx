@@ -8,28 +8,28 @@ export default function LastTimeSponsors() {
       </h3>
       <div className="mt-10 grid max-w-lg grid-cols-4 gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none">
         <Image
-          alt="Transistor"
+          alt="KPMG Logo"
           src="/kpmg_logo.svg"
           width={158}
           height={48}
           className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
         />
         <Image
-          alt="Reform"
+          alt="Digital Hub Bonn Logo"
           src="/digitalhub-w.svg"
           width={158}
           height={48}
           className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
         />
         <Image
-          alt="Tuple"
+          alt="Hochschule Bonn-Rhein-Sieg Logo"
           src="/hbrs-w.png"
           width={158}
           height={48}
           className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
         />
         <Image
-          alt="SavvyCal"
+          alt="Universität Bonn Logo"
           src="/uni-bonn-w.svg"
           width={158}
           height={48}

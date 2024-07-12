@@ -1,6 +1,12 @@
 import Image from 'next/image'
 import { Button } from './Button'
 import LastTimeSponsors from './LastTimeSponsors'
+import teilnehmendePic from '../images/teilnehmende.jpg'
+import teilnPic1 from '../images/teiln1.jpg'
+import teilnPic2 from '../images/teiln2.jpg'
+import teilnPic3 from '../images/teiln3.jpg'
+import teilnPic4 from '../images/teiln4.jpg'
+import teilnPic5 from '../images/teiln5.jpg'
 
 const stats = [
   { id: 1, name: 'Teilnehmende', value: '35+' },
@@ -105,11 +111,10 @@ export default function LastTimeImpressions() {
               <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                 <div className="relative">
                   <Image
-                    src="/IMG_5574.jpg"
-                    height={1500}
-                    width={1000}
-                    alt=""
+                    src={teilnPic1}
+                    alt="Portrait eines Teilnehmers aus dem letzten Jahr"
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                    placeholder="blur"
                   />
                   <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                 </div>
@@ -117,21 +122,19 @@ export default function LastTimeImpressions() {
               <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                 <div className="relative">
                   <Image
-                    src="/IMG_5629.jpg"
-                    height={1500}
-                    width={1000}
-                    alt=""
+                    src={teilnPic2}
+                    alt="Portrait einer Teilnehmerin aus dem letzten Jahr"
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                    placeholder="blur"
                   />
                   <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                 </div>
                 <div className="relative">
                   <Image
-                    src="/IMG_5647.jpg"
-                    height={1500}
-                    width={1000}
-                    alt=""
+                    src={teilnPic3}
+                    alt="Portrait eines Teilnehmers aus dem letzten Jahr"
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                    placeholder="blur"
                   />
                   <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                 </div>
@@ -139,21 +142,19 @@ export default function LastTimeImpressions() {
               <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
                 <div className="relative">
                   <Image
-                    src="/IMG_5701.jpg"
-                    height={1500}
-                    width={1000}
-                    alt=""
+                    src={teilnPic4}
+                    alt="Teilnehmerin aus dem letzten Jahr während des Pitches"
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                    placeholder="blur"
                   />
                   <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                 </div>
                 <div className="relative">
                   <Image
-                    src="/IMG_5471.jpg"
-                    height={1500}
-                    width={1000}
-                    alt=""
+                    src={teilnPic5}
+                    alt="Tim Bastin - L3montree - während der Detail-Vorstellung des Problems"
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                    placeholder="blur"
                   />
                   <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                 </div>
@@ -170,11 +171,10 @@ export default function LastTimeImpressions() {
       <div className="mt-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <Image
-            src="/teilnehmende.jpg"
-            alt="App screenshot"
+            src={teilnehmendePic}
+            alt="Teilnehmende des Hackathons 2023"
             className="rounded-lg shadow-2xl ring-1 ring-white/10"
-            width={1000}
-            height={800}
+            placeholder="blur"
           />
         </div>
       </div>
