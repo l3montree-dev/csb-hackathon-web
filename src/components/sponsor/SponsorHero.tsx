@@ -1,5 +1,6 @@
 import { ChevronRightIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image'
+import { Button } from '../Button'
 
 export default function Example() {
   return (
@@ -35,7 +36,7 @@ export default function Example() {
       </svg>
       <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
         <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
-          <div className="mt-24 sm:mt-32 lg:mt-16">
+          <div className="mt-24 sm:mt-32 lg:mt-0">
             <a
               href="mailto:sponsor@cybersecurity-hackathon.de?subject=Cybersecurity Hackathon 2024 Sponsoring"
               className="inline-flex space-x-6"
@@ -56,6 +57,14 @@ export default function Example() {
             Sie nicht nur eine zukunftsweisende Veranstaltung, sondern
             profitieren auch von zahlreichen Vorteilen.
           </p>
+          <div className="mt-10 flex items-center gap-x-6">
+            <Button
+              className="border border-l3-500 bg-transparent text-l3-500 hover:border-l3-400 hover:bg-transparent hover:text-l3-400"
+              href="mailto:sponsor@cybersecurity-hackathon.de?subject=Cybersecurity Hackathon 2024 Sponsoring"
+            >
+              Jetzt Kontakt aufnehmen
+            </Button>
+          </div>
         </div>
         <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
           <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">

@@ -35,13 +35,34 @@ export function Hero() {
             <p className="mt-4 text-lg font-semibold text-l3-400">
               Preisgeld: 3.000 € für das Gewinnerteam
             </p>
+            <p className="text-l mt-4 text-white">
+              Location:{' '}
+              <a
+                href="https://maps.app.goo.gl/NidUD6xNoRGNovmQA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-l3-400 underline decoration-dashed decoration-1 underline-offset-2 hover:text-l3-200"
+              >
+                DIGITALHUB.DE, Am Hauptbahnhof 6, 53111 Bonn
+              </a>
+            </p>
             <p className="mt-4 text-lg text-gray-200">
               48 Stunden Zeit, coole Leute, spannende technische
               Problemstellungen + Networking, Drinks &apos;n Food und eine große
               Abschlussparty
             </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
-              <Button href="/coming-soon">Kostenlos teilnehmen</Button>
+            <div className="justify-center gap-10 sm:inline-block lg:flex">
+              <div className="mt-10 flex items-center justify-center gap-x-6">
+                <Button href="/coming-soon">Kostenlos teilnehmen</Button>
+              </div>
+              <div className="mt-10 flex items-center justify-center gap-x-6">
+                <Button
+                  className="border border-l3-500 bg-transparent text-l3-500 hover:border-l3-400 hover:bg-transparent hover:text-l3-400"
+                  href="/sponsor"
+                >
+                  Sponsor werden
+                </Button>
+              </div>
             </div>
           </div>
         </div>

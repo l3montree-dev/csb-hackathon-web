@@ -12,6 +12,7 @@ type Tier = {
   href: string
   price: string
   mostPopular: boolean
+  available?: number
 }
 
 type Section = {
@@ -27,22 +28,25 @@ const tiers: Tier[] = [
     name: 'Startup',
     id: 'tier-startup',
     href: '#',
-    price: '200 €',
+    price: 'ab 200 €',
     mostPopular: false,
+    available: 5,
   },
   {
     name: 'Silber',
     id: 'tier-silver',
     href: '#',
-    price: '2.000 €',
+    price: 'ab 2.000 €',
     mostPopular: false,
+    available: 5,
   },
   {
     name: 'Gold',
     id: 'tier-gold',
     href: '#',
-    price: '4.000 €',
+    price: 'ab 4.000 €',
     mostPopular: true,
+    available: 3,
   },
 ]
 
@@ -149,6 +153,17 @@ export default function Example() {
                 <span className="text-4xl font-bold">{tier.price}</span>
                 <span className="text-sm font-semibold">(netto)</span>
               </p>
+              <div className="mt-4">
+                {tier.available != undefined && tier.available > 4 ? (
+                  <span className="inline-flex items-center rounded-md bg-gray-100 px-2 py-1 text-xs font-medium text-gray-600">
+                    Noch {tier.available} Plätze
+                  </span>
+                ) : (
+                  <span className="inline-flex items-center rounded-md bg-purple-100 px-2 py-1 text-xs font-medium text-purple-700">
+                    Noch {tier.available} Plätze
+                  </span>
+                )}
+              </div>
               <ul
                 role="list"
                 className="mt-10 space-y-4 text-sm leading-6 text-zinc-900"
@@ -215,6 +230,17 @@ export default function Example() {
                       scope="col"
                       className="px-6 pt-6 xl:px-8 xl:pt-8"
                     >
+                      <div className="flex justify-end">
+                        {tier.available != undefined && tier.available > 4 ? (
+                          <span className="inline-flex items-center rounded-md bg-gray-100 px-2 py-1 text-xs font-medium text-gray-600">
+                            Noch {tier.available} Plätze
+                          </span>
+                        ) : (
+                          <span className="inline-flex items-center rounded-md bg-purple-100 px-2 py-1 text-xs font-medium text-purple-700">
+                            Noch {tier.available} Plätze
+                          </span>
+                        )}
+                      </div>
                       <div className="text-sm font-semibold leading-7 text-zinc-900">
                         {tier.name}
                       </div>
@@ -230,7 +256,7 @@ export default function Example() {
                   {tiers.map((tier) => (
                     <td key={tier.id} className="px-6 pt-2 xl:px-8">
                       <div className="flex items-baseline gap-x-1 text-zinc-900">
-                        <span className="text-4xl font-bold">{tier.price}</span>
+                        <span className="text-2xl font-bold">{tier.price}</span>
                         <span className="text-sm font-semibold leading-6">
                           (netto)
                         </span>

@@ -83,15 +83,14 @@ export default function LastTimeImpressions() {
                 </Button>
               </div>
               <div className="mt-10 flex items-center gap-x-6">
-                <a
+                <Button
+                  className="border border-l3-500 bg-transparent text-l3-500 hover:border-l3-400 hover:bg-transparent hover:text-l3-400"
                   href="https://www.youtube.com/watch?v=9xt4zltT0D4"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-base font-semibold leading-6 text-zinc-100"
                 >
-                  Teaser-Video von 2023 ansehen{' '}
-                  <span aria-hidden="true">→</span>
-                </a>
+                  Teaser-Video von 2023 ansehen
+                </Button>
               </div>
               <dl className="mt-16 hidden grid-cols-1 gap-x-4 gap-y-8 text-white sm:mt-20 sm:grid-cols-2 sm:gap-y-10 lg:flex lg:grid-cols-4">
                 {stats.map((stat) => (

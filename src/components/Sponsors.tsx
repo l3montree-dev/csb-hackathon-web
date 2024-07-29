@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import { Container } from '@/components/Container'
 import { Button } from './Button'
-import LastTimeSponsors from './LastTimeSponsors'
+
+import ZendisLogo from '../../public/zendis.png'
 
 export function Sponsors() {
   return (
@@ -17,9 +18,35 @@ export function Sponsors() {
         <div className="mt-20 grid grid-cols-1 items-center gap-y-10 lg:grid-cols-2">
           <div className="mx-auto w-full max-w-xl lg:mx-0">
             <h3 className="text-2xl font-bold tracking-tight text-zinc-900">
+              Themensponsoren
+            </h3>
+            <p className="mt-6 text-base leading-8 text-zinc-600">
+              Unsere Themensponsoren sind die kreativen Ideengeber, die die
+              Aufgaben für unsere Veranstaltungen bereitstellen. Ihre
+              Unterstützung ermöglicht es uns, ein unvergessliches und
+              spannendes Event zu gestalten.
+            </p>
+          </div>
+          <div className="mx-auto grid w-full max-w-2xl grid-cols-1 items-center gap-x-12 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:pl-8">
+            <a
+              href="https://zendis.de/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                className="lg:max-h-26 max-h-24 w-full object-contain object-center lg:max-h-24 lg:object-right"
+                src={ZendisLogo}
+                alt="DigitalHub Bonn Logo"
+              />
+            </a>
+          </div>
+        </div>
+        <div className="mt-20 grid grid-cols-1 items-center gap-y-10 lg:grid-cols-2">
+          <div className="mx-auto w-full max-w-xl lg:mx-0">
+            <h3 className="text-2xl font-bold tracking-tight text-zinc-900">
               Gold Sponsoren
             </h3>
-            <p className="mt-6 text-lg leading-8 text-zinc-600">
+            <p className="mt-6 text-base leading-8 text-zinc-600">
               Unsere Goldsponsoren sind die tragenden Säulen unserer
               Veranstaltungen. Mit ihrer großzügigen Unterstützung ermöglichen
               sie es uns, ein außergewöhnliches Event zu schaffen.
