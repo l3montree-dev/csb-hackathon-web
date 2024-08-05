@@ -25,7 +25,7 @@ type Section = {
 
 const tiers: Tier[] = [
   {
-    name: 'Startup',
+    name: 'Startup*',
     id: 'tier-startup',
     href: '#',
     price: 'ab 200 €',
@@ -336,8 +336,8 @@ export default function Example() {
             </div>
             <div className="ml-3 flex-1 md:flex md:justify-between">
               <p className="text-sm text-zinc-900">
-                Voraussetzung für das Start-Up-Paket: Das Unternehmen ist jünger
-                als 3 Jahre und hat weniger als 5 Mitarbeitende.
+                * Voraussetzung für das Start-Up-Paket: Das Unternehmen ist
+                jünger als 3 Jahre und hat weniger als 5 Mitarbeitende.
               </p>
             </div>
           </div>
