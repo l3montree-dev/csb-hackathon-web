@@ -9,14 +9,14 @@ export default function ThisYearsProblem() {
                 Das Thema 2024: Open Source Software Security
               </h2>
               <h3 className="mt-2 font-display text-3xl font-medium tracking-tighter text-black">
-                Wie können wir feststellen, ob diese Open-Source-Projekte sicher
-                und vertrauenswürdig sind? Wie können wir zu der Sicherheit von
-                Open-Source-Projekte beitragen?
+                Wie können wir feststellen, ob Open-Source-Projekte sicher und
+                vertrauenswürdig sind? Wie können wir zu der Sicherheit von
+                Open-Source-Projekten beitragen?
               </h3>
               <p className="mt-6 text-base leading-8 text-zinc-800">
                 Open-Source-Software ist das Rückgrat vieler moderner
-                Anwendungen, wobei bis zu 80–90 % der typischen Software aus
-                Open-Source-Abhängigkeiten besteht. 
+                Anwendungen. Typische Software besteht zu 80–90 % aus
+                Open-Source-Abhängigkeiten.
               </p>
               <p className="mt-6 text-base leading-8 text-zinc-800">
                 Die jüngste Sicherheitslücke in der{' '}
@@ -24,30 +24,26 @@ export default function ThisYearsProblem() {
                   href="https://www.heise.de/news/xz-Attacke-Hintertuer-entraetselt-weitere-Details-zu-betroffenen-Distros-9671588.html"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="text-l3-600 underline decoration-dashed decoration-1 underline-offset-2 hover:text-l3-500"
                 >
-                  XZ-Library
+                  XZ-Utuils-Library
                 </a>{' '}
                 hat eindrucksvoll gezeigt, wie entscheidend die Sicherheit in
-                der Open-Source-Entwicklung ist. Unternehmen, öffentliche
-                Verwaltungen und die gesamte Gesellschaft verlassen sich auf
-                Open-Source-Lösungen, doch die Frage der Sicherheit wird oft
-                unzureichend behandelt.
+                der Open-Source-Softwareentwicklung ist. Unternehmen, die
+                öffentliche Verwaltung und somit die gesamte Gesellschaft
+                verlassen sich auf Open-Source-Lösungen. Jedoch wird die Frage
+                der Sicherheit oft unzureichend gestellt.
               </p>
               <p className="mt-6 text-base leading-8 text-zinc-800">
                 Bei unserem Hackathon wollen wir dieses Thema aus einem neuen
                 Blickwinkel betrachten: Wie können wir die Sicherheit von
-                Open-Source-Projekten gemeinsam bewerten und verbessern?
+                Open-Source-Projekten gemeinsam bewerten oder sogar verbessern?
               </p>
               <p className="mt-6 text-base leading-8 text-zinc-800">
-                Es geht nicht nur darum, festzustellen, ob ein Projekt sicher
-                nutzbar ist, sondern auch darum, konkrete Maßnahmen zu
-                entwickeln, die Open-Source-Projekten helfen, sicherer zu
-                werden. Was können wir als Gemeinschaft tun, um die Sicherheit
-                von Open-Source-Projekten zu stärken? Unser Ziel ist es,
-                gemeinsam Lösungen zu entwickeln, die sowohl Unternehmen als
-                auch der Open-Source-Community helfen, die Sicherheit zu
-                verbessern und das Vertrauen in Open-Source-Software nachhaltig
-                zu stärken.
+                Unser Ziel ist es, gemeinsam Lösungen zu entwickeln, die sowohl
+                Unternehmen als auch der Open-Source-Community helfen, die
+                Sicherheit zu verbessern und das Vertrauen in
+                Open-Source-Software nachhaltig zu stärken.
               </p>
             </div>
           </div>
