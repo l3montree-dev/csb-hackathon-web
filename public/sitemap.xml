@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
      <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-       
-             <url>
-                 <loc>https://cybersecurity-hackathon.de/sponsor</loc>
-                 <lastmod>2024-07-10T12:54:39.133Z</lastmod>
-             </url>
 
              <url>
                  <loc>https://cybersecurity-hackathon.de</loc>
-                 <lastmod>2024-07-10T14:56:27.781Z</lastmod>
+                 <lastmod>2024-08-12T10:49:27.779Z</lastmod>
              </url>
+
+             <url>
+                <loc>https://cybersecurity-hackathon.de/sponsor</loc>
+                <lastmod>2024-08-12T10:49:27.779Z</lastmod>
+            </url>
            
      </urlset>
    

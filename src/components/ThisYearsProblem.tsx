@@ -8,14 +8,15 @@ export default function ThisYearsProblem() {
               <h2 className="text-base font-semibold leading-7 text-l3-600">
                 Das Thema 2024: Open Source Software Security
               </h2>
-              <h3 className="mt-2 font-display text-4xl font-medium tracking-tighter text-black">
-                Wie können wir bewerten, ob ein Open-Source-Projekt sicher
-                einsetzbar ist?
+              <h3 className="mt-2 font-display text-3xl font-medium tracking-tighter text-black">
+                Wie können wir feststellen, ob diese Open-Source-Projekte sicher
+                und vertrauenswürdig sind? Wie können wir zu der Sicherheit von
+                Open-Source-Projekte beitragen?
               </h3>
               <p className="mt-6 text-base leading-8 text-zinc-800">
-                Typische Software besteht zu 80–90 % aus
-                Open-Source-Abhängigkeiten. Wie kann festgestellt werden, ob
-                hierbei sichere Software eingesetzt wird?
+                Open-Source-Software ist das Rückgrat vieler moderner
+                Anwendungen, wobei bis zu 80–90 % der typischen Software aus
+                Open-Source-Abhängigkeiten besteht. 
               </p>
               <p className="mt-6 text-base leading-8 text-zinc-800">
                 Die jüngste Sicherheitslücke in der{' '}
@@ -26,13 +27,27 @@ export default function ThisYearsProblem() {
                 >
                   XZ-Library
                 </a>{' '}
-                hat eindrucksvoll gezeigt, wie essenziell die Sicherheit in der
-                Open-Source-Entwicklung ist. Für Unternehmen und die gesamte
-                Gesellschaft, einschließlich der öffentlichen Verwaltung und der
-                Wirtschaft, ist dies ein bedeutendes Anliegen, das bisher noch
-                unzureichend behandelt ist. Es bedarf konkreter Ansätze, um mehr
-                Sicherheit zu schaffen und dadurch das Vertrauen und den Einsatz
-                von Open-Source-Lösungen zu stärken.
+                hat eindrucksvoll gezeigt, wie entscheidend die Sicherheit in
+                der Open-Source-Entwicklung ist. Unternehmen, öffentliche
+                Verwaltungen und die gesamte Gesellschaft verlassen sich auf
+                Open-Source-Lösungen, doch die Frage der Sicherheit wird oft
+                unzureichend behandelt.
+              </p>
+              <p className="mt-6 text-base leading-8 text-zinc-800">
+                Bei unserem Hackathon wollen wir dieses Thema aus einem neuen
+                Blickwinkel betrachten: Wie können wir die Sicherheit von
+                Open-Source-Projekten gemeinsam bewerten und verbessern?
+              </p>
+              <p className="mt-6 text-base leading-8 text-zinc-800">
+                Es geht nicht nur darum, festzustellen, ob ein Projekt sicher
+                nutzbar ist, sondern auch darum, konkrete Maßnahmen zu
+                entwickeln, die Open-Source-Projekten helfen, sicherer zu
+                werden. Was können wir als Gemeinschaft tun, um die Sicherheit
+                von Open-Source-Projekten zu stärken? Unser Ziel ist es,
+                gemeinsam Lösungen zu entwickeln, die sowohl Unternehmen als
+                auch der Open-Source-Community helfen, die Sicherheit zu
+                verbessern und das Vertrauen in Open-Source-Software nachhaltig
+                zu stärken.
               </p>
             </div>
           </div>
