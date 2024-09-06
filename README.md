@@ -1,35 +1,36 @@
-# Keynote
+# Cybersecurity Hackathon
+Welcome to the Cybersecurity Hackathon official repository! This hackathon brings together cybersecurity enthusiasts, developers, and experts to tackle some of the most pressing challenges in the field. The event encourages collaboration, innovation, and the development of cutting-edge solutions to enhance cybersecurity practices and technologies.
 
-Keynote is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+## Overview
+The Cybersecurity Hackathon is a platform where participants can work on real-world challenges related to:
 
-## Getting started
+1. Software Supply Chain Security
+2. Open Source Project Security Assessment
+3. Vulnerability Management
+4. Threat Detection and Response
+5. Risk Management Automation
 
-To get started with this template, first install the npm dependencies:
+Participants have the opportunity to collaborate, build solutions, and win prizes while contributing to the improvement of cybersecurity across the open-source ecosystem.
 
-```bash
-npm install
-```
+Event Details
+Date: 08.11.2024 - 10.11.2024
 
-Next, run the development server:
+Location: Bonn, NRW, Germany
 
-```bash
-npm run dev
-```
+Website: https://cybersecurity-hackathon.de/
 
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+## How to Participate
+Register on our website.
 
-## Customizing
+Join our [Discord community](https://discord.gg/BCBjCvgk) for updates, team-building, and networking.
 
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
+Form a team or participate solo.
 
-## License
+## Key Features
+- Workshops & Mentorship: Gain insights from experts in cybersecurity, software development, and risk management.
+- Prizes: Compete for prizes and recognition within the cybersecurity community.
+- Networking: Build connections with fellow participants, industry professionals, and potential employers.
 
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
+---
 
-## Learn more
-
-To learn more about the technologies used in this site template, see the following resources:
-
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
+Let’s hack for a safer digital world!
