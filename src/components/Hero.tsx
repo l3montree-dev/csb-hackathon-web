@@ -54,7 +54,8 @@ export function Hero() {
             </p>
             <div className="justify-center gap-10 sm:inline-block lg:flex">
               <div className="mt-10 flex items-center justify-center gap-x-6">
-                <Button href="/coming-soon">Kostenlos teilnehmen</Button>
+                <Button href="https://pretix.eu/l3montree/cybers-hack-2024/" target="_blank"
+                  rel="noopener noreferrer">Kostenlos teilnehmen</Button>
               </div>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <Button
