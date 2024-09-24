@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { Button } from './Button'
 
 export function Hero() {
@@ -22,7 +23,7 @@ export function Hero() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-32">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
               Cybersecurity Hackathon 2024
@@ -63,6 +64,101 @@ export function Hero() {
                   Sponsor werden
                 </Button>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="-mt-20 py-20 lg:-mt-12">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-6">
+              <a
+                href="https://www.digitalhub.de/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  alt="DigitalHub AG Bonn Logo"
+                  src="/digitalhub-w.svg"
+                  width={158}
+                  height={48}
+                  className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                />
+              </a>
+              <a
+                href="https://dwnrw-hubs.de/startseite/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  alt="Digitale Wirtschaft NRW Logo"
+                  src="/dwnrw.png"
+                  width={158}
+                  height={48}
+                  className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                />
+              </a>
+              <a
+                href="https://cyber-security-cluster.eu/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  alt="Cyber Security Logo Bonn e.V. Logo"
+                  src="/ccb-logo-w.png"
+                  width={158}
+                  height={48}
+                  className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                />
+              </a>
+              <a
+                href="https://zendis.de/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  alt="ZenDiS GmbH Logo"
+                  src="/zendis-w.png"
+                  width={158}
+                  height={48}
+                  className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                />
+              </a>
+              <a
+                href="https://www.uni-bonn.de/de"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  alt="Universität Bonn Logo"
+                  src="/uni-bonn-w.svg"
+                  width={158}
+                  height={48}
+                  className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                />
+              </a>
+              <a
+                href="https://www.h-brs.de/de"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  alt="Hochschule Bonn-Rhein-Sieg Logo"
+                  src="/hbrs-w.png"
+                  width={158}
+                  height={48}
+                  className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                />
+              </a>
+            </div>
+            <div className="mt-16 flex justify-center">
+              <p className="relative rounded-full bg-zinc-800 px-4 py-1.5 text-sm leading-6 text-gray-300">
+                <span className="hidden md:inline">
+                  Ermöglicht von unseren Sponsoren und Partnern
+                </span>
+                <a href="#sponsors" className="font-semibold text-white">
+                  <span aria-hidden="true" className="absolute inset-0" />{' '}
+                  Unsere Sponsoren <span aria-hidden="true">&rarr;</span>
+                </a>
+              </p>
             </div>
           </div>
         </div>
