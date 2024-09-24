@@ -29,8 +29,10 @@ export function Header() {
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button href="https://pretix.eu/l3montree/cybers-hack-2024/" target="_blank"
-            rel="noopener noreferrer">Kostenlos teilnehmen</Button>
+          <Button href="https://pretix.eu/l3montree/cybers-hack-2024/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Kostenlos teilnehmen</Button>
         </div>
       </Container>
     </header>
