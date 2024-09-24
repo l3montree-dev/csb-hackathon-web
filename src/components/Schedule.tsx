@@ -75,7 +75,6 @@ const schedule: Array<Day> = [
     summary:
       'Am Samstag steht die intensive Arbeitsphase im Mittelpunkt. Unser Team steht euch den ganzen Tag für Rückfragen zur Verfügung. Ein Pitch-Workshop bereitet euch auf Sonntag vor.',
     timeSlots: [
-
       {
         name: 'Arbeitsphase',
         description: '🚀',
@@ -140,7 +139,6 @@ const schedule: Array<Day> = [
         openForOthers: false,
         id: 14,
       },
-
       {
         name: 'Partnervorstellungen',
         description: 'Sponsoren & Partner stellen sich vor',
