@@ -75,26 +75,11 @@ const schedule: Array<Day> = [
     summary:
       'Am Samstag steht die intensive Arbeitsphase im Mittelpunkt. Unser Team steht euch den ganzen Tag für Rückfragen zur Verfügung. Ein Pitch-Workshop bereitet euch auf Sonntag vor.',
     timeSlots: [
+
       {
         name: 'Arbeitsphase',
         description: '🚀',
         start: 'offen',
-        end: '10:00',
-        openForOthers: false,
-        id: 6,
-      },
-      {
-        name: 'Frühstück',
-        description: '🥞 🥨 🍎 🥐 🥯 ☕',
-        start: '10:00',
-        end: '11:00',
-        openForOthers: false,
-        id: 7,
-      },
-      {
-        name: 'Arbeitsphase',
-        description: '🚀',
-        start: '11:00',
         end: '14:00',
         openForOthers: false,
         id: 8,
@@ -151,18 +136,11 @@ const schedule: Array<Day> = [
         name: 'Arbeitsphase',
         description: '🚀',
         start: 'offen',
-        end: '11:00',
+        end: '12:00',
         openForOthers: false,
         id: 14,
       },
-      {
-        name: 'Frühstück',
-        description: '🥞 🥨 🍎 🥐 🥯 ☕',
-        start: '11:00',
-        end: '12:00',
-        openForOthers: false,
-        id: 15,
-      },
+
       {
         name: 'Partnervorstellungen',
         description: 'Sponsoren & Partner stellen sich vor',
@@ -364,7 +342,7 @@ export function Schedule() {
           <p className="mt-4 font-display text-xl tracking-tight text-zinc-400">
             Erlebe drei Tage voller Herausforderungen, intensiver Arbeitsphasen
             und Networking. Triff neue Leute, erweitere dein Netzwerk und
-            gewinne mit deinem Team das Preisgeld. 
+            gewinne mit deinem Team das Preisgeld.
           </p>
         </div>
       </Container>
