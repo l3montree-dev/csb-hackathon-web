@@ -36,7 +36,20 @@ export function Sponsors() {
               <Image
                 className="lg:max-h-26 max-h-24 w-full object-contain object-center lg:max-h-24 lg:object-right"
                 src={ZendisLogo}
-                alt="DigitalHub Bonn Logo"
+                alt="Zentrum für Digitale Souveränität der Öffentlichen Verwaltung (ZenDiS) Logo"
+              />
+            </a>
+            <a
+              href="https://zendis.de/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                className="lg:max-h-26 max-h-24 w-full object-contain object-center lg:max-h-24 lg:object-right"
+                src="/stf-dark.svg"
+                width={400}
+                height={150}
+                alt="Sovereign Tech Fund Logo"
               />
             </a>
           </div>

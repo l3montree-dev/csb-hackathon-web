@@ -75,83 +75,103 @@ export function Hero() {
         </div>
         <div className="-mt-20 py-20 lg:-mt-12">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-6">
+            <div className="mx-auto grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-7">
               <a
                 href="https://www.digitalhub.de/"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="order-3 sm:order-1"
               >
                 <Image
                   alt="DigitalHub AG Bonn Logo"
                   src="/digitalhub-w.svg"
                   width={158}
                   height={48}
-                  className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                  className="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
                 />
               </a>
               <a
                 href="https://dwnrw-hubs.de/startseite/"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="order-5 sm:order-2"
               >
                 <Image
                   alt="Digitale Wirtschaft NRW Logo"
                   src="/dwnrw.png"
                   width={158}
                   height={48}
-                  className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                  className="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
                 />
               </a>
               <a
                 href="https://cyber-security-cluster.eu/"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="order-4 sm:order-3"
               >
                 <Image
                   alt="Cyber Security Logo Bonn e.V. Logo"
                   src="/ccb-logo-w.png"
                   width={158}
                   height={48}
-                  className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                  className="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
                 />
               </a>
               <a
                 href="https://zendis.de/"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="order-1 sm:order-4"
               >
                 <Image
                   alt="ZenDiS GmbH Logo"
                   src="/zendis-w.png"
                   width={158}
                   height={48}
-                  className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                  className="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
+                />
+              </a>
+              <a
+                href="https://www.sovereigntechfund.de/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="order-2 sm:order-5"
+              >
+                <Image
+                  alt="Sovereign Tech Fund Logo"
+                  src="/stf-white.svg"
+                  width={158}
+                  height={48}
+                  className="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
                 />
               </a>
               <a
                 href="https://www.uni-bonn.de/de"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="order-8 sm:order-6"
               >
                 <Image
                   alt="Universität Bonn Logo"
                   src="/uni-bonn-w.svg"
                   width={158}
                   height={48}
-                  className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                  className="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
                 />
               </a>
               <a
                 href="https://www.h-brs.de/de"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="order-9 sm:order-7"
               >
                 <Image
                   alt="Hochschule Bonn-Rhein-Sieg Logo"
                   src="/hbrs-w.png"
                   width={158}
                   height={48}
-                  className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                  className="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
                 />
               </a>
             </div>
