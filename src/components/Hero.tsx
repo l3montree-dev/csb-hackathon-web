@@ -64,6 +64,15 @@ export function Hero() {
               </div>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <Button
+                  href="https://pretix.eu/l3montree/cybers-hack-2024/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Besucherticket
+                </Button>
+              </div>
+              <div className="mt-10 flex items-center justify-center gap-x-6">
+                <Button
                   className="border border-l3-500 bg-transparent text-l3-500 hover:border-l3-400 hover:bg-transparent hover:text-l3-400"
                   href="/sponsor"
                 >
