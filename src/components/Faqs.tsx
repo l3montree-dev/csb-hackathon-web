@@ -33,7 +33,7 @@ const faqs = [
     id: 6,
     question: 'Wie siehts mit Essen und Trinken aus?',
     answer:
-      'Wir versorgen euch (kostenlos) mit Frühstück, Mittag- und Abendessen. Wirf auch gerne einen Blick in den vorläufigen Zeitplan weiter oben. Es wird immer zumindest eine vegetarische Option geben. Getränke sind auch ausreichend vor Ort (verschiedene Softdrinks, Kaffee, Wasser etc.). Die Location ist sehr zentral in Bonn gelegen und fußläufig sind verschiedene Restaurants, Cafés und Supermärkte erreichbar, falls ihr etwas Spezielles oder größere Mengen braucht.',
+      'Wir versorgen euch (kostenlos) mit Mittag- und Abendessen. Wirf auch gerne einen Blick in den vorläufigen Zeitplan weiter oben. Es wird immer zumindest eine vegetarische Option geben. Getränke sind auch ausreichend vor Ort (verschiedene Softdrinks, Kaffee, Wasser etc.). Die Location ist sehr zentral in Bonn gelegen und fußläufig sind verschiedene Restaurants, Cafés und Supermärkte erreichbar, falls ihr etwas Spezielles oder größere Mengen braucht.',
   },
 ]
 
