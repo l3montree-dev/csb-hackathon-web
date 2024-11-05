@@ -290,7 +290,7 @@ function TimeSlots({ day, className }: { day: Day; className?: string }) {
             <p className="mt-1 text-sm font-medium tracking-tight text-l3-400">
               Offen mit{' '}
               <a
-                href="/coming-soon"
+                href="https://pretix.eu/l3montree/cybers-hack-2024/"
                 className="text-l3-400 underline decoration-dashed decoration-1 underline-offset-2 hover:text-l3-200"
               >
                 Besucherticket
