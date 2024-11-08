@@ -23,7 +23,7 @@ export function Hero() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-32">
+        <div className="mx-auto max-w-4xl py-32 sm:py-48 lg:py-32">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
               Cybersecurity Hackathon 2024
@@ -53,16 +53,16 @@ export function Hero() {
               Abschlussparty
             </p>
             <div className="justify-center gap-10 sm:inline-block lg:flex">
-              <div className="mt-10 flex items-center justify-center gap-x-6">
+              <div className="mt-5 flex items-center justify-center gap-x-6">
                 <Button
-                  href="https://pretix.eu/l3montree/cybers-hack-2024/"
+                  href="https://gitlab.opencode.de/cybersecurity-hackathon"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Kostenlos teilnehmen
+                  Zum Repository auf OpenCoDE
                 </Button>
               </div>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
+              <div className="mt-5 flex items-center justify-center gap-x-6">
                 <Button
                   href="https://pretix.eu/l3montree/cybers-hack-2024/"
                   target="_blank"
@@ -71,12 +71,13 @@ export function Hero() {
                   Besucherticket
                 </Button>
               </div>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
+              <div className="mt-5 flex items-center justify-center gap-x-6">
                 <Button
                   className="border border-l3-500 bg-transparent text-l3-500 hover:border-l3-400 hover:bg-transparent hover:text-l3-400"
-                  href="/sponsor"
+                  href="https://discord.gg/QCv7RdGJkF"
+                  target="_blank"
                 >
-                  Sponsor werden
+                  Zum Discord Server
                 </Button>
               </div>
             </div>
